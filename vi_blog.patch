@@ -1,0 +1,13 @@
+diff --git a/src/App.js b/src/App.js
+index 4d9c654..8e5e6e8 100644
+--- a/src/App.js
++++ b/src/App.js
+@@ -8,7 +8,7 @@
+ import WhatsNext from './components/WhatsNext';
+ 
+ function App() {
+-  const [language, setLanguage] = useState('en');
++  const [language, setLanguage] = useState('vi');
+ 
+   return (
+     <div className="App">
